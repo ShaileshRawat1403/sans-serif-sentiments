@@ -7,8 +7,8 @@
 ## Problem
 
 Too often, documentation:
-- Jumps straight into “how” without explaining **why** readers should care.
-- Leaves out context about **who** the intended audience is.
+- Jumps straight into “how” without explaining **why** readers should care.  
+- Leaves out context about **who** the intended audience is.  
 - Forces readers to guess the **intended use** or scope of the material.
 
 As a result, users skim, get lost, or abandon the doc entirely.
@@ -32,15 +32,21 @@ This orients readers at the outset, builds trust, and sets expectations.
 
 ```markdown
 # Installation
-
 1. Download the package…
 2. Run `install.sh`…
+```
+
+✅ **Right** (with purpose—reader knows exactly why and how):
+
+```markdown
 # Purpose of This Guide
 
 This document helps **busy developers** integrate the `sleepsort` API in **under five minutes**.  
 You’ll learn **what** endpoints you need, **how** to authenticate, and **where** to find examples.
 
 # Installation
-
 1. Download the package…
 2. Run `install.sh`…
+```
+
+
