@@ -33,7 +33,7 @@ Each project reflects a real documentation pain point, rewritten with care:
 - **A Thoughtfully Packaged Yes**  
   *Proposals that feel clear, intentional, and respectful.*
 
-- [Style Guide](../STYLE-GUIDE/STYLE-GUIDE.md) — A living framework for clarity and empathy.`
+- [Style Guide](../STYLE-GUIDE/STYLE-GUIDE.html) — A framework for clarity and consistency.`
 
 ---
 
