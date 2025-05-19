@@ -32,36 +32,15 @@ This orients readers at the outset, builds trust, and sets expectations.
 
 ```markdown
 # Installation
+
 1. Download the package…
 2. Run `install.sh`…
-```
-
-✅ **Right** (with purpose—reader knows exactly why and how):
-
-```markdown
 # Purpose of This Guide
 
 This document helps **busy developers** integrate the `sleepsort` API in **under five minutes**.  
 You’ll learn **what** endpoints you need, **how** to authenticate, and **where** to find examples.
 
 # Installation
+
 1. Download the package…
 2. Run `install.sh`…
-```
-
----
-
-## Why It Matters
-
-- **Trust & Confidence:** Readers know they’re in the right place.  
-- **Efficiency:** Users focus on relevant steps, not hunting for context.  
-- **Retention:** A clear introduction encourages full engagement with the rest of the content.
-
----
-
-## Quick Checklist
-
-- [ ] Did you name the target audience?  
-- [ ] Did you describe the key problem or goal?  
-- [ ] Did you explain how readers should use this document?  
-- [ ] Is the Purpose section visible before any other headings?
