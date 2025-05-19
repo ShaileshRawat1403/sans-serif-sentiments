@@ -1,5 +1,5 @@
-# Welcome to Sans-Serif Sentiments
+---
+permalink: /
+---
 
-This site showcases:
-- Writing style guide  
-- Documentation demos and templates  
+{% include_relative README.md %}
