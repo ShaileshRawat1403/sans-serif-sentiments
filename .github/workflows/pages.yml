@@ -1,4 +1,8 @@
 # .github/workflows/pages.yml
+permissions:
+  contents: write    # Needed so GITHUB_TOKEN can push commits
+  pages: write       # Needed for deploy-pages step
+  id-token: write    # (only if you use actions/deploy-pages@v1)
 
 name: Deploy GitHub Pages
 
@@ -10,17 +14,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0                     # full git history, needed for force pushes
-
+      - uses: actions/checkout@v3
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./docs
-          user_name: github-actions[bot]           # set a committer identity
-          user_email: github-actions[bot]@users.noreply.github.com
-          force_orphan: true                       # always recreate branch cleanly
+          force_orphan: true
