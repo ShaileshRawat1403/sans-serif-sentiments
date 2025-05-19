@@ -1,4 +1,5 @@
 ---
-{% include_relative README.md %}
+permalink: /
 ---
 
+{% include_relative README.md %}
