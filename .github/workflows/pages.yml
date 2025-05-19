@@ -2,7 +2,6 @@
 
 name: Deploy GitHub Pages
 
-# Trigger on every push to main
 on:
   push:
     branches: [ main ]
@@ -10,17 +9,18 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out your repository
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0                     # full git history, needed for force pushes
 
-      # Step 2: Deploy the contents of ./docs to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Auto-generated token for this repo
-          publish_branch: gh-pages                  # The branch GitHub Pages will serve
-          publish_dir: ./docs                       # Folder to publish
-          force_orphan: true                        # Always recreate gh-pages cleanly
- 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./docs
+          user_name: github-actions[bot]           # set a committer identity
+          user_email: github-actions[bot]@users.noreply.github.com
+          force_orphan: true                       # always recreate branch cleanly
