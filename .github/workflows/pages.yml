@@ -23,3 +23,4 @@ jobs:
           publish_branch: gh-pages                  # The branch GitHub Pages will serve
           publish_dir: ./docs                       # Folder to publish
           force_orphan: true                        # Always recreate gh-pages cleanly
+ 
