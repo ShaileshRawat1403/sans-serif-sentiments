@@ -66,3 +66,5 @@ Not for commercial or altered use.
 ---
 
 *Documentation isn't just written—it's experienced.* 🌱 
+
+- [Style Guide](./docs/STYLE-GUIDE/) — Browse the style guide on the live site
