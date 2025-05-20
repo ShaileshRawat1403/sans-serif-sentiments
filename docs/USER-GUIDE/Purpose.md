@@ -34,6 +34,7 @@ This creates orientation, sets expectations, and invites the reader in.
 ```markdown
 # How to Contribute
 Fork the repo, clone it, create a new branch...
+```
 
 ✅ **Right** (context-first clarity):
 
@@ -46,3 +47,4 @@ You’ll learn **how the repo is structured**, **what the style rules are**, and
 # How to Contribute
 1. Fork the repo…
 2. Clone it locally…
+```
