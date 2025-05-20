@@ -134,30 +134,13 @@ Up next: [Anatomy of a Great Doc →](#3-anatomy-of-a-great-doc)
 
 ---
 
-### 🧱 Visual Layout (Convert to Image Later)
+### 🧱 Visual Layout
 
-Use this layout as a guide when building or reviewing your doc:
+Use this visual layout as a guide when building or reviewing your doc:
 
-+----------------------------+
-| 📄 Title |
-+----------------------------+
-| 🎯 Purpose / Audience |
-+----------------------------+
-| 📚 TOC (optional) |
-+----------------------------+
-| 🪜 Body |
-| - Steps / Explanations |
-| - Visuals & Examples |
-+----------------------------+
-| ⚠️ Tips & Notes |
-+----------------------------+
-| 🔗 Links / References |
-+----------------------------+
-| 📅 Last Updated |
-+----------------------------+
-
-
-📌 *Embed this as an actual diagram later via `/assets/images/anatomy.png`*
+<div align="center">
+  <img src="../../assets/images/doc-anatomy.png" alt="Anatomy of a Great Doc" width="600"/>
+</div>
 
 ---
 
