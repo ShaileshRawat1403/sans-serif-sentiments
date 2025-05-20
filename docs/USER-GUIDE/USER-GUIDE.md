@@ -22,7 +22,7 @@ Whether you're creating a user manual, an API reference, or a how-to blog, this 
 
 | Section | What It Covers |
 |--------|----------------|
-| [Before You Start](#before-you-start) | Tools, mindset, and the invisible prep work |
+| [Before You Start](#2before-you-start) | Tools, mindset, and the invisible prep work |
 | [Anatomy of a Great Doc](#anatomy-of-a-great-doc) | Visual breakdown of documentation elements |
 | [Writing Principles](#writing-principles) | How to write like a human, not a helpdesk |
 | [Doc Types & Examples](#doc-types--examples) | Different doc styles and when to use them |
