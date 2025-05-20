@@ -67,4 +67,7 @@ Not for commercial or altered use.
 
 *Documentation isn't just written—it's experienced.* 🌱 
 
-- [Style Guide](./docs/STYLE-GUIDE/index.md) — Browse the style guide on the live site
+- ## 📚 Documentation
+
+- 📘 [User Guide](./docs/USER-GUIDE.md) — How to write documentation without losing the plot  
+- ✍️ [Style Guide](./docs/STYLE-GUIDE.md) — Voice, tone, and rules that evolve with us  
