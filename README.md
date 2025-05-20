@@ -34,7 +34,7 @@ Each project reflects a real documentation pain point, rewritten with care:
   *Proposals that feel clear, intentional, and respectful.*
 
 - [Style Guide](./STYLE-GUIDE/STYLE-GUIDE.md) — Voice, tone, and rules that evolve with us.
-
+- [User Guide](.docs/USER-GUIDE/USER-GUIDE.md) — Voice, tone, and rules that evolve with us.
 ---
 
 ## 📚 Templates & Tools (Coming Soon)
