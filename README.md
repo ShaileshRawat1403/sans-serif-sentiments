@@ -33,7 +33,7 @@ Each project reflects a real documentation pain point, rewritten with care:
 - **A Thoughtfully Packaged Yes**  
   *Proposals that feel clear, intentional, and respectful.*
 
-- [Style Guide](./STYLE-GUIDE/STYLE-GUIDE.md) — A living framework for clarity and empathy.
+- [Style Guide](./STYLE-GUIDE/STYLE-GUIDE.md) — Voice, tone, and rules that evolve with us.
 
 ---
 
@@ -70,4 +70,4 @@ Not for commercial or altered use.
 - ## 📚 Documentation
 
 - 📘 [User Guide](./docs/USER-GUIDE.md) — How to write documentation without losing the plot  
-- ✍️ [Style Guide](STYLE-GUIDE/index.html) — Voice, tone, and rules that evolve with us  
+- ✍️ [Style Guide](./docs/STYLE-GUIDE/STYLE-GUIDE.md) — Voice, tone, and rules that evolve with us  
