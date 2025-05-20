@@ -33,7 +33,10 @@ Each project reflects a real documentation pain point, rewritten with care:
 - **A Thoughtfully Packaged Yes**  
   *Proposals that feel clear, intentional, and respectful.*
 
-- [Style Guide](./STYLE-GUIDE/index.html) — A framework for clarity and consistency.`
+## 📚 Documentation
+
+- 📘 [User Guide](./docs/USER-GUIDE/USER-GUIDE.md)  
+- ✍️ [Style Guide](./docs/STYLE-GUIDE/STYLE-GUIDE.md)
 
 ---
 
