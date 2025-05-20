@@ -115,7 +115,7 @@ Up next: [Anatomy of a Great Doc →](#3-anatomy-of-a-great-doc)
 > You wouldn’t build a house without a blueprint. Don’t write documentation without one either.  
 > This section is the blueprint. It shows you what every well-crafted document needs—no matter who it's for.
 
-![Anatomy of a Great Doc](../../assets/images/doc-anatomy.png)
+<img src="../../assets/images/doc-anatomy.png" alt="Anatomy of a Great Doc" width="700"/>
 ---
 
 ### 📊 The Skeleton: Standard Structure of a Useful Doc
