@@ -59,7 +59,7 @@ No buzzwords. No fluff. Just thoughtful writing for real people.
 Let’s begin.
 ---
 
-## 🧭 2. Before You Start
+## 2. Before You Start 🧭
 
 > Good documentation isn’t just written—it’s prepared for.  
 > This section helps you avoid rookie mistakes and shows you how to *think* like a technical writer before you even open a text editor.
