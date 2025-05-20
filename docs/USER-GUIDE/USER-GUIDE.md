@@ -107,3 +107,152 @@ Before writing anything:
 - Remember: good documentation is a conversation, not a command
 
 Up next: [Anatomy of a Great Doc →](#3-anatomy-of-a-great-doc)
+
+---
+
+## 3. Anatomy of a Great Doc
+
+> You wouldn’t build a house without a blueprint. Don’t write documentation without one either.  
+> This section is the blueprint. It shows you what every well-crafted document needs—no matter who it's for.
+
+![Anatomy of a Great Doc](../../assets/images/doc-anatomy.png)
+---
+
+### 📊 The Skeleton: Standard Structure of a Useful Doc
+
+| Section | Function |
+|---------|----------|
+| **📄 Title** | A short, searchable identifier—not a full sentence |
+| **🎯 Purpose** | Why this document exists, and who it's meant for |
+| **🧭 Scope or Audience** | Optional, but clarifies what roles it applies to (or doesn't) |
+| **📚 Table of Contents** | Optional, but essential for longer docs |
+| **🪜 Body** | The actual content: step-by-step, structured, scannable |
+| **📷 Visual Aids** | Screenshots, tables, diagrams that reduce friction |
+| **⚠️ Notes & Edge Cases** | Tips, warnings, things users might get wrong |
+| **🔗 Related Links** | Point to supporting docs or source code |
+| **📅 Last Updated** | Build trust. Readers want to know: *is this still valid?*
+
+---
+
+### 🧱 Visual Layout (Convert to Image Later)
+
+Use this layout as a guide when building or reviewing your doc:
+
++----------------------------+
+| 📄 Title |
++----------------------------+
+| 🎯 Purpose / Audience |
++----------------------------+
+| 📚 TOC (optional) |
++----------------------------+
+| 🪜 Body |
+| - Steps / Explanations |
+| - Visuals & Examples |
++----------------------------+
+| ⚠️ Tips & Notes |
++----------------------------+
+| 🔗 Links / References |
++----------------------------+
+| 📅 Last Updated |
++----------------------------+
+
+
+📌 *Embed this as an actual diagram later via `/assets/images/anatomy.png`*
+
+---
+
+### 🔍 Part-by-Part Breakdown with Examples
+
+---
+
+#### 🎯 Purpose
+
+> *Start by telling the reader why this doc exists and who it's for.*
+
+**❌ Common mistake:**
+```markdown
+# Setup Guide
+1. Install the app…
+```
+
+✅ Fixed:
+```markdown
+# Setup Guide
+
+This document helps new users install the app in under 5 minutes, with tips for Mac and Windows.
+
+1. Install the app…
+```
+
+#### 🪜 Body
+
+> *Organize your steps. Break them down. Don't assume your reader knows as much as you do.*
+
+❌ Common mistake:
+
+```markdown
+Do the thing. Then do the other thing.
+```
+
+✅ Fixed:
+```markdown
+## Step 1: Download the Installer
+Include platform-specific links here.
+
+## Step 2: Run the File
+Explain how to find it and what to expect.
+#### ⚠️ Tips, Notes, and What Can Go Wrong
+
+> *Readers want to avoid mistakes. This section is where you save them.*
+
+```
+
+❌ Common mistake:
+```markdown
+Skipping it entirely.
+```
+
+✅ Fixed:
+```markdown
+> ⚠️ **Troubleshooting Tip:** If installation fails on macOS Ventura, check System Preferences > Security and manually allow the app.
+Use callout boxes, blockquotes, or bold labels to highlight issues and solutions.
+```
+
+#### 📅 Last Updated / Versioning
+
+> *Trust comes from transparency. Help readers know how fresh your content is.*
+
+❌ Common mistake:
+```markdown
+Leaving users to guess whether the doc is still relevant.
+```
+
+✅ Fixed:
+```markdown
+_Last updated: May 20, 2025_  
+_Compatible with version 2.4.0 and above_
+```
+
+#### 🧨 When Can You Break the Format?
+
+> *Great docs follow structure. Brilliant ones break it on purpose—with care.*
+
+Break the format when:
+
+Your doc is very short (e.g., CLI command reference)
+
+You're creating onboarding slides or UI tooltips
+
+The context is already crystal clear (e.g., error code guides)
+
+But still try to signal structure—even in small ways.
+
+---
+
+### ✅ TL;DR
+
+Good documentation has a predictable rhythm: it tells you where you're going, shows you how to get there, warns you of cliffs, and points to other maps if needed.
+
+Structure is what makes your writing scale. It's not a crutch—it's a scaffold.
+
+Up next: Writing Principles →
