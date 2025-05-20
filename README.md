@@ -69,5 +69,5 @@ Not for commercial or altered use.
 
 - ## 📚 Documentation
 
-- 📘 [User Guide](./docs/USER-GUIDE.md) — How to write documentation without losing the plot  
+- 📘 [User Guide](./docs/USER-GUIDE/USER-GUIDE.md) — How to write documentation without losing the plot  
 - ✍️ [Style Guide](./docs/STYLE-GUIDE/STYLE-GUIDE.md) — Voice, tone, and rules that evolve with us  
