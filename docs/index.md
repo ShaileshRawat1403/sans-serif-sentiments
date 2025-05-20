@@ -35,8 +35,8 @@ Each project reflects a real documentation pain point, rewritten with care:
 
 ## 📚 Documentation
 
-- 📘 [User Guide](./docs/USER-GUIDE/USER-GUIDE.md)  
-- ✍️ [Style Guide](./docs/STYLE-GUIDE/STYLE-GUIDE.md)
+- 📘 [User Guide](./USER-GUIDE/USER-GUIDE.md)  
+- ✍️ [Style Guide](./STYLE-GUIDE/STYLE-GUIDE.md)
 
 ---
 
