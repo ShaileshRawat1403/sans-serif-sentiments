@@ -41,7 +41,9 @@ This guide is your ultimate crash course to making your Floyd Rose an ally, not 
 
 ## 2. What Is a Floyd Rose?
 
-The Floyd Rose is a **double-locking floating tremolo system**. Unlike fixed or vintage trem bridges, it allows for radical pitch changes while keeping your guitar in tune. It locks the string at both the **nut** and **bridge saddle**, eliminating slippage.
+The Floyd Rose is a **double-locking floating tremolo system**.  
+Unlike fixed or vintage trem bridges, it allows for radical pitch changes while keeping your guitar in tune.  
+It locks the string at both the **nut** and **bridge saddle**, eliminating slippage.
 
 > ⚖️ It’s a finely balanced system between **string tension** and **spring tension**. Changing one affects the whole.
 
