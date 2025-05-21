@@ -77,6 +77,9 @@ The Floyd Rose is a **double-locking floating tremolo system**. Unlike fixed or 
 
 ## 5. Changing Strings
 
+<details>
+<summary>Click to expand string changing steps</summary>
+
 ### 🔁 Step-by-Step:
 1. Remove the backplate to access the spring cavity  
 2. Loosen the locking nut  
@@ -87,10 +90,14 @@ The Floyd Rose is a **double-locking floating tremolo system**. Unlike fixed or 
 7. **Do only one string at a time!**
 
 > ❗ Changing all strings at once can cause the bridge to collapse.
+</details>
 
 ---
 
 ## 6. Tuning a Floyd Rose
+
+<details>
+<summary>Click to expand tuning instructions</summary>
 
 ### ⚖️ The Tug-of-War:
 Every string affects the others because of the floating bridge.
@@ -102,6 +109,7 @@ Every string affects the others because of the floating bridge.
 4. Use fine tuners for micro-adjustments
 
 > 🧠 Pro tip: Don’t lock the nut too early—everything sharpens afterward.
+</details>
 
 ---
 
@@ -167,6 +175,9 @@ Drop tuning lowers string tension → bridge moves → other strings go sharp.
 
 ## 12. Common Failures (And Yes, They’re Common)
 
+<details>
+<summary>Click to expand common mistakes & consequences</summary>
+
 | Mistake                      | Consequence                      |
 |-----------------------------|----------------------------------|
 | Locking nut too early        | Sharp pitch shifts               |
@@ -175,9 +186,14 @@ Drop tuning lowers string tension → bridge moves → other strings go sharp.
 | Skipping string stretch      | Tuning instability               |
 | Overtightening saddle locks  | Damage to hardware               |
 
+</details>
+
 ---
 
 ## 13. Best Practices & Mythbusting
+
+<details>
+<summary>Click to expand best practices</summary>
 
 - Lubricate knife edges with a bit of graphite or Vaseline  
 - Use a temporary **trem block** to simplify string changes  
@@ -185,10 +201,14 @@ Drop tuning lowers string tension → bridge moves → other strings go sharp.
 - You **don’t need to detune** every time you put the guitar away  
 
 ![Spring Claw Adjustment](./images/spring-claw-adjustment.png)
+</details>
 
 ---
 
 ## 14. Troubleshooting
+
+<details>
+<summary>Click to expand troubleshooting tips</summary>
 
 | Problem                           | Fix                                  |
 |----------------------------------|--------------------------------------|
@@ -197,6 +217,8 @@ Drop tuning lowers string tension → bridge moves → other strings go sharp.
 | String slips out                 | Check saddle lock screw              |
 | Pitch wobbles after dive         | Lubricate knife edges + check nut    |
 | Buzz after adjusting action      | Check neck relief or saddle height   |
+
+</details>
 
 ---
 
@@ -218,10 +240,6 @@ Drop tuning lowers string tension → bridge moves → other strings go sharp.
 
 ### 🎥 Must-Watch Video  
 - [Floyd Rose Setup – Dylan Talks Tone (YouTube)](https://youtu.be/tT2N2w3hhVk)  
-  _A brilliant visual breakdown with real-world tuning steps._
-
-  ### 🎥 Must-Watch Video  
-- [Floyd Rose Setup – Schecter Guitar Research (YouTube)](https://youtu.be/zEH3Ey76yb4)  
   _A brilliant visual breakdown with real-world tuning steps._
 
 ### 🧠 Forums & Support  
