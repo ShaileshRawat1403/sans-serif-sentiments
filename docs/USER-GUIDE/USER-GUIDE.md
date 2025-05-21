@@ -27,7 +27,7 @@ Whether you're creating a user manual, an API reference, or a how-to blog, this 
 | [Writing Principles](#4-writing-principles) | How to write like a human, not a helpdesk |
 | [Doc Types & Examples](#5-doc-types--examples) | Different doc styles and when to use them |
 | [Visual Writing](6-#visual-writing) | Tables, UI cutouts, code blocks & delight |
-| [Style in Action](7-./STYLE-GUIDE.md) | How to apply our style guide |
+| [Style in Action](7-#./STYLE-GUIDE.md) | How to apply our style guide |
 | [Remapped Examples](./examples/remapped-markdown.md) | Rewriting traditional docs in our voice |
 | [FAQs](#faq--troubleshooting) | Because something will go wrong |
 | [Next Steps](#next-steps) | Where to go from here |
