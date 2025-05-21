@@ -33,7 +33,9 @@
 
 You bought it for the dive bombs. You stayed for the existential crisis.
 
-Floyd Rose bridges offer extreme tuning stability and tonal control—but at a cost. If you’ve ever broken a string mid-session and watched the entire bridge nose-dive, welcome to the club. This guide is your ultimate crash course to making your Floyd Rose an ally, not a nightmare.
+Floyd Rose bridges offer extreme tuning stability and tonal control—but at a cost.  
+If you’ve ever broken a string mid-session and watched the entire bridge nose-dive, welcome to the club.  
+This guide is your ultimate crash course to making your Floyd Rose an ally, not a nightmare.
 
 ---
 
@@ -41,7 +43,7 @@ Floyd Rose bridges offer extreme tuning stability and tonal control—but at a c
 
 The Floyd Rose is a **double-locking floating tremolo system**. Unlike fixed or vintage trem bridges, it allows for radical pitch changes while keeping your guitar in tune. It locks the string at both the **nut** and **bridge saddle**, eliminating slippage.
 
-The catch? It's a finely balanced system between **string tension** and **spring tension**. Altering one side affects the whole.
+> ⚖️ It’s a finely balanced system between **string tension** and **spring tension**. Changing one affects the whole.
 
 ---
 
@@ -55,7 +57,7 @@ The catch? It's a finely balanced system between **string tension** and **spring
 - Ruler or string action gauge  
 - Lint-free cloth  
 - Small amount of lubricant (for knife edges)  
-- Patience (mandatory)
+- **Patience** (non-negotiable)
 
 ---
 
@@ -66,8 +68,8 @@ The catch? It's a finely balanced system between **string tension** and **spring
 - **Locking saddles** – Clamp the string in place at the bridge  
 - **Fine tuners** – For micro-adjustments after locking nut  
 - **Locking nut** – Clamps the strings at the headstock  
-- **Tremolo block** – Weights and connects to springs in the back cavity  
-- **Springs and claw** – Pull the bridge backward to balance string tension  
+- **Tremolo block** – Connects to the back springs  
+- **Springs and claw** – Balance string tension from the rear cavity  
 
 ![Floyd Rose Anatomy](./images/floyd-bridge-anatomy.png)
 
@@ -75,43 +77,43 @@ The catch? It's a finely balanced system between **string tension** and **spring
 
 ## 5. Changing Strings
 
-### Step-by-Step:
-1. **Remove the back plate** – Access the tremolo cavity.  
-2. **Loosen the locking nut** with the Allen wrench.  
-3. **Loosen the bridge clamps** (saddle blocks) at the bridge.  
-4. **Cut off the ball ends** of your new strings.  
-5. **Insert the cut end** into the saddle block and tighten.  
-6. **Run string through tuning peg**, tune to mild tension.  
-7. Repeat for each string. **Change one at a time.**
+### 🔁 Step-by-Step:
+1. Remove the backplate to access the spring cavity  
+2. Loosen the locking nut  
+3. Loosen saddle clamps  
+4. Cut the ball ends off the new strings  
+5. Insert flat-cut string into saddle block and tighten  
+6. Run string through tuning peg and tune to mild tension  
+7. **Do only one string at a time!**
 
-> Changing all at once throws the tension balance off completely.
+> ❗ Changing all strings at once can cause the bridge to collapse.
 
 ---
 
 ## 6. Tuning a Floyd Rose
 
-### The Tug-of-War Explained:
-Each string affects the tension and pitch of others. The bridge “floats,” so tuning is iterative.
+### ⚖️ The Tug-of-War:
+Every string affects the others because of the floating bridge.
 
-### How to Tune:
-1. Roughly tune all strings to pitch.  
-2. Go through tuning **3–5 passes**, adjusting each string.  
-3. Once stable, **lock the nut**.  
-4. Use **fine tuners** to dial in the final tuning.
+### 🔧 How to Tune:
+1. Rough tune all strings  
+2. Repeat **3–5 passes** through all strings  
+3. Once stable, lock the nut  
+4. Use fine tuners for micro-adjustments
 
-> Don’t lock the nut too early. You’ll pull everything sharp.
+> 🧠 Pro tip: Don’t lock the nut too early—everything sharpens afterward.
 
 ---
 
 ## 7. Maintaining the Float
 
-The Floyd Rose should sit **parallel** to the guitar body. If it leans too far forward or back, something’s off.
+The Floyd Rose bridge should sit **parallel to the body**.
 
-### How to Balance:
-- If it tilts forward → **Tighten claw screws** to increase spring pull.  
-- If it leans backward → **Loosen the claw screws**.
+### 🔩 Adjust the Float:
+- If it tilts forward → Tighten claw screws (increase spring pull)  
+- If it leans backward → Loosen the claw screws
 
-> Use 3 springs in a V configuration for standard tension (9s or 10s).
+> Most setups work best with **3 springs in a V configuration**
 
 ![Bridge Angle Correction](./images/tremolo-angle.png)
 
@@ -119,51 +121,47 @@ The Floyd Rose should sit **parallel** to the guitar body. If it leans too far f
 
 ## 8. Adjusting Action
 
-Low action makes for easy playability but invites buzz. High action is tough on fingers.
+### 🪛 Use the Pivot Studs:
+- Turn to raise/lower the bridge
+- Check action at 12th fret
+- Loosen strings before adjusting
 
-### Adjust via:
-- **Pivot studs** – Turn to raise/lower bridge height.  
-- **Check for buzz** with a feeler gauge or by ear.  
-- Always adjust with strings loosened and bridge unlocked.
+> 🧘 Aim for low action without fret buzz. Your fingers and tone will thank you.
 
 ---
 
 ## 9. Intonation Setup
 
-Tuning open doesn’t guarantee in-tune frets.
+### 🎯 Steps:
+1. Play the **12th fret harmonic**  
+2. Play the **12th fret fretted note**  
+3. If sharp → Move saddle back  
+4. If flat → Move saddle forward  
+5. Repeat per string
 
-### Steps:
-1. Play harmonic at 12th fret.  
-2. Play fretted note at 12th.  
-3. If fretted is sharp → **Move saddle back**.  
-4. If flat → **Move saddle forward**.  
-5. Repeat for each string.
-
-> This step takes time—but rewards your effort with a guitar that actually plays in tune.
+> 🔍 Intonation is time-consuming but makes your guitar play in tune *everywhere*.
 
 ---
 
 ## 10. Break-In Period & String Stretching
 
-New strings stretch—causing tuning drift.
-
-### Best Practices:
-- Stretch each string upward gently along the neck.  
-- Re-tune after every stretch.  
-- Do 3–4 passes before locking nut.
+### 🔁 Best Practices:
+- Stretch each string gently upward along its length  
+- Re-tune after each pass  
+- Do 3–4 full tuning passes before locking the nut
 
 ---
 
 ## 11. What If I Want to Drop Tune?
 
-Drop tuning affects string tension → affects bridge angle → affects all other strings.
+Drop tuning lowers string tension → bridge moves → other strings go sharp.
 
-### Options:
-- **Blocked tremolo**: Insert a wood block to lock the trem in one position.  
-- **Tremol-No**: Aftermarket part to switch between fixed/floating.  
-- Use **heavier gauge strings** and add spring tension.
+### 🛠️ Options:
+- Block the trem (eraser, wood, or Tremol-No)  
+- Add an extra spring  
+- Use heavier strings
 
-> Floyds are not made for frequent tuning changes unless modified.
+> 🚫 Floyd Roses hate constant tuning changes—unless you modify them for it.
 
 ---
 
@@ -171,20 +169,20 @@ Drop tuning affects string tension → affects bridge angle → affects all othe
 
 | Mistake                      | Consequence                      |
 |-----------------------------|----------------------------------|
-| Locking nut too early        | Pitch shift on all strings       |
+| Locking nut too early        | Sharp pitch shifts               |
 | Changing all strings at once | Bridge collapses                 |
-| Ignoring spring balance      | Uneven float                     |
-| Skipping string stretch      | Constant detuning                |
-| Tightening studs too far     | Wears knife edges                |
+| Ignoring spring balance      | Tilted float                     |
+| Skipping string stretch      | Tuning instability               |
+| Overtightening saddle locks  | Damage to hardware               |
 
 ---
 
 ## 13. Best Practices & Mythbusting
 
-- **Lubricate knife edges** with a small dab of graphite or Vaseline  
-- **Block your trem** temporarily with an eraser for easier setup  
-- **Don’t overtighten saddle locks** – snug is enough  
-- You **don’t need to detune between sessions** if setup is solid  
+- Lubricate knife edges with a bit of graphite or Vaseline  
+- Use a temporary **trem block** to simplify string changes  
+- "Snug" > "Crank" when tightening saddle screws  
+- You **don’t need to detune** every time you put the guitar away  
 
 ![Spring Claw Adjustment](./images/spring-claw-adjustment.png)
 
@@ -195,30 +193,44 @@ Drop tuning affects string tension → affects bridge angle → affects all othe
 | Problem                           | Fix                                  |
 |----------------------------------|--------------------------------------|
 | Bridge pulls up when tuning      | Add spring tension (tighten claw)    |
-| Strings go flat after nut lock   | Lock nut last, retune before locking |
-| String slips out                 | Saddle lock screw may be loose       |
-| Pitch wobbles after dive         | Lubricate knife edges & check nut    |
-| Buzz after action set            | Check neck relief (truss rod tweak)  |
+| Strings go flat after nut lock   | Lock nut last, re-tune before locking |
+| String slips out                 | Check saddle lock screw              |
+| Pitch wobbles after dive         | Lubricate knife edges + check nut    |
+| Buzz after adjusting action      | Check neck relief or saddle height   |
 
 ---
 
-## 15. Final Setup Checklist
+## 15. Final Setup Checklist ✅
 
-- [ ] Changed one string at a time  
-- [ ] Tuned iteratively before locking nut  
-- [ ] Bridge sits parallel to body  
-- [ ] Action set to taste without buzz  
-- [ ] Intonation correct at 12th fret  
-- [ ] Fine tuners functional post-lock  
+- [x] Changed one string at a time  
+- [x] Tuned and stretched strings before locking  
+- [x] Bridge sits parallel to body  
+- [x] Intonation set at 12th fret  
+- [x] Fine tuners working properly  
+- [x] Action comfortable and buzz-free
 
 ---
 
 ## 16. Resources & Community
 
-- [Floyd Rose Official Setup Guide](https://floydrose.com/pages/technical-resources)  
-- YouTube Channels: **StewMac**, **KDH**, **Guitar Tech Tips**  
-- Reddit: r/Guitar, r/Luthier  
-- Forums: The Gear Page, Seymour Duncan Forums
+### 🛠️ Official Guide  
+- [Floyd Rose Vintage Setup Instructions](https://www.floydrose.com/blogs/tech-talk/vintage-setup-instructions)
+
+### 🎥 Must-Watch Video  
+- [Floyd Rose Setup – Dylan Talks Tone (YouTube)](https://youtu.be/tT2N2w3hhVk)  
+  _A brilliant visual breakdown with real-world tuning steps._
+
+  ### 🎥 Must-Watch Video  
+- [Floyd Rose Setup – Schecter Guitar Research (YouTube)](https://youtu.be/zEH3Ey76yb4)  
+  _A brilliant visual breakdown with real-world tuning steps._
+
+### 🧠 Forums & Support  
+- [r/Luthier](https://www.reddit.com/r/Luthier) | [r/Guitar](https://www.reddit.com/r/guitar)  
+- [The Gear Page](https://www.thegearpage.net/)  
+- [Seymour Duncan Forum](https://forum.seymourduncan.com/)
+
+### 📺 Channels to Follow  
+- **StewMac**, **Phillip McKnight**, **Crimson Guitars**, **KDH**
 
 ---
 
