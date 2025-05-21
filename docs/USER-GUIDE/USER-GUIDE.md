@@ -315,3 +315,134 @@ If it sounds like a legal disclaimer, rewrite it. If it sounds like a Slack mess
 Up next: [Doc Types & Examples →](#5-doc-types--examples)
 
 ---
+
+---
+
+## 5. Doc Types & Examples  
+*Because not all docs wear the same shoes.*
+
+> A setup guide should walk like a teacher,assuming you skipped the README..  
+> An API reference should sit like a dictionary. Confident. Comprehensive. 
+> A troubleshooting doc should already know you’re panicking.
+
+Documentation is not a monolith—it’s a modular stack. This section shows you how to choose the right doc type for the right moment (and write it well).
+
+---
+
+### 🧭 Common Doc Types (and When to Use Them)
+
+| Type | Purpose | When to Use |
+|------|---------|-------------|
+| **🛠️ Setup / Install Guide** | Help users get started without friction | First-time onboarding |
+| **📘 How-To Guide** | Walk a user through a specific task or workflow | Task-focused learning |
+| **📖 Reference Doc** | Describe every API, command, or setting | When users already know *what* they’re looking for |
+| **🧪 Troubleshooting Guide** | Help users when something breaks | When errors occur or edge cases pop up |
+| **🧠 Conceptual / Overview Doc** | Explain *why* something exists or matters | High-level understanding before doing |
+| **🗂️ Release Notes / Changelog** | Summarize what changed and why | New versions, updates, feature flags |
+| **🧾 Internal Process Doc** | Explain how contributors or teams should work | For your team, not end users |
+
+---
+
+### 🔍 Examples + Quick Templates
+
+#### 🛠️ Setup Guide
+
+> *"Just get me started."*
+
+```markdown
+## Getting Started
+
+This guide helps new users install and run the app in under 5 minutes.
+
+### 1. Download the Package  
+Choose your OS and download the installer.
+
+### 2. Run the Setup  
+Double-click the file and follow the on-screen steps.
+
+### 3. Verify the Installation  
+Open the app. If you see the dashboard, you're good to go.
+```
+
+---
+
+#### 📘 How-To Guide
+
+> *"I need to do one thing, right now."*
+
+```markdown
+## How to Reset Your Password
+
+This guide shows you how to reset your password using either email or 2FA.
+
+1. Go to Settings > Account  
+2. Click “Reset Password”  
+3. Choose recovery method  
+4. Follow the link or enter OTP  
+```
+
+---
+
+#### 📖 Reference Doc
+
+> *"I know what function I need, I just want the syntax."*
+
+```markdown
+### GET /users
+
+Returns a list of all users.
+
+**Query Parameters:**
+- `limit`: Number of results to return
+- `offset`: Where to start pagination
+
+**Response:**
+```json
+{
+  "users": [],
+  "total": 10
+}
+```
+```
+
+---
+
+#### 🧪 Troubleshooting Doc
+
+> *"It’s not working. Help me."*
+
+```markdown
+## Can't Log In?
+
+Here are 3 things to check:
+
+### 1. Are your caps lock on?
+Try retyping your password with it off.
+
+### 2. Have you reset recently?
+If so, try logging in from a private window.
+
+### 3. Still stuck?
+Contact support and include the following info:
+- Screenshot of the error
+- Browser and OS
+```
+
+---
+
+### 🧠 What to Remember
+
+- Different doc types solve different problems—don’t treat them the same
+- Use Setup and How-To when guiding action  
+- Use Reference and Conceptual when supporting exploration  
+- Use Troubleshooting when saving someone from panic
+
+---
+
+### 📌 TL;DR
+
+Not all documentation needs to explain everything.  
+Sometimes, it just needs to say:  
+**“Do this. Here’s how. You’re okay now.”**
+
+Up next: [Visual Writing →](#6-visual-writing)
