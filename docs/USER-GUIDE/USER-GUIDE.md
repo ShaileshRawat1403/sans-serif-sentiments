@@ -565,3 +565,109 @@ npm install sans-serif-sentiments
 - A doc that reads well is a doc that gets read
 
 Up next: [Style in Action →](./STYLE-GUIDE.md)
+
+---
+
+## 7. Style in Action  
+*Where the rules meet the writing.*
+
+> A style guide without examples is like a recipe without measurements.  
+> This section shows you how to rewrite stiff, robotic, or vague writing into something clear, useful, and human—using our actual tone and structure.
+
+---
+
+### ✍️ Before / After #1: Cold & Vague
+
+#### ❌ Original
+```markdown
+If issues persist, consult the documentation or contact support.
+```
+
+#### ✅ Rewritten (with care)
+```markdown
+Still stuck?  
+Check out the [Troubleshooting Guide](#) or message us—real humans are watching the inbox.
+```
+
+---
+
+### ✍️ Before / After #2: Passive & Formal
+
+#### ❌ Original
+```markdown
+The user is advised to reset their credentials prior to accessing the platform again.
+```
+
+#### ✅ Rewritten (with clarity)
+```markdown
+Before logging back in, reset your password—it only takes a minute.
+```
+
+---
+
+### ✍️ Before / After #3: Overwritten & Jargony
+
+#### ❌ Original
+```markdown
+To enhance onboarding efficiency, initiate profile configuration using the designated module.
+```
+
+#### ✅ Rewritten (with warmth)
+```markdown
+Let’s get you started: set up your profile in a few clicks using the setup module.
+```
+
+---
+
+### ✍️ Before / After #4: Emotionless Support
+
+#### ❌ Original
+```markdown
+If the feature is unavailable, it may be due to versioning constraints.
+```
+
+#### ✅ Rewritten (with empathy)
+```markdown
+Can’t find the feature?  
+It might not be in your current version—[check here](#) to update or learn more.
+```
+
+---
+
+### ✍️ Before / After #5: Flat Setup Guide
+
+#### ❌ Original
+```markdown
+Install the CLI. Configure the environment. Run init.
+```
+
+#### ✅ Rewritten (with flow)
+```markdown
+### 1. Install the CLI  
+Download and run the installer for your OS.
+
+### 2. Configure Your Environment  
+Set up your tokens or keys (we’ll guide you).
+
+### 3. Initialize  
+Run `tool init` in your terminal to get going.
+```
+
+---
+
+### 🧠 Tip
+
+When in doubt, ask:
+- Would I say this out loud to someone?
+- Does this sentence respect the reader’s time?
+- Can I rewrite this with 30% fewer words?
+
+---
+
+### 📌 TL;DR
+
+- Rewrite like you’re rescuing someone from confusion
+- Your tone is your tool—it builds trust
+- Style isn’t just how it sounds—it’s how it feels to read
+
+Up next: [Remapped Examples →](./examples/remapped-markdown.md)
