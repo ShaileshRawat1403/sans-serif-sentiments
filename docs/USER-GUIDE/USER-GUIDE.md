@@ -446,3 +446,122 @@ Sometimes, it just needs to say:
 **“Do this. Here’s how. You’re okay now.”**
 
 Up next: [Visual Writing →](#6-visual-writing)
+
+---
+
+## 6. Visual Writing  
+*Because your doc shouldn’t look like a wall of regret.*
+
+> Docs should guide the eye as much as they guide the mind.  
+> This section teaches you to structure your words so they’re easy to scan, follow, and act on—even when your user is tired, lost, or on their fourth coffee.
+
+---
+
+### 📐 Think in Blocks, Not Paragraphs
+
+Use layout as your invisible UX designer.
+
+| Element | Use It For |
+|--------|-------------|
+| **Headings** (`##`) | Break long docs into sections so people can find what they need |
+| **Bullets / Lists** | Show process, options, or categories at a glance |
+| **Tables** | Organize and compare structured information |
+| **Callouts / Quotes** | Highlight tips, warnings, or context |
+| **Code Blocks** | For commands, snippets, and terminal clarity |
+| **Emojis or icons** | Add delight and help readers scan—sparingly and purposefully |
+
+---
+
+### 🧱 Example: Flat vs Structured
+
+#### ❌ Don’t Do This
+
+```markdown
+To update your app, go to Settings. Scroll to “System”. Tap “Check for Updates”. If an update is available, tap “Download.” Wait for the process to finish. Your app will restart automatically.
+```
+
+#### ✅ Do This Instead
+
+```markdown
+## How to Update the App
+
+1. Open **Settings**
+2. Tap **System**
+3. Select **Check for Updates**
+4. If available, tap **Download**
+5. Wait for it to finish
+6. The app will restart automatically
+```
+
+> ✨ Format is meaning. Show, don’t just tell.
+
+---
+
+### 🎨 Make Tables Work Harder
+
+Use tables for more than specs. Use them for clarity.
+
+#### Instead of this:
+
+```markdown
+You can use this tool for file conversion, compression, encryption, and backup. It supports zip, tar, rar, and 7z formats.
+```
+
+#### Try this:
+
+| Task        | Supported Formats |
+|-------------|-------------------|
+| Compression | `.zip`, `.tar`, `.rar`, `.7z` |
+| Encryption  | `.zip`, `.7z` |
+| Backup      | Any |
+| Conversion  | `.zip` → `.tar`, `.7z` → `.zip` |
+
+---
+
+### 💬 UI Cutouts & Screenshots
+
+> Sometimes, the fastest way to explain a UI is to literally show it.
+
+- ✅ Use screenshots for confusing buttons or deep settings menus
+- ✅ Add **circles**, **arrows**, or **callouts** to highlight what's important
+- ✅ Crop images—don’t make your users hunt
+- ✅ Add alt text: `![Reset Button Screenshot](../../assets/images/reset.png)`
+
+> 🧠 Use images to reduce friction, not decorate the doc.
+
+---
+
+### 🖍️ Code Blocks That Don’t Burn Eyes
+
+Use triple backticks for commands, JSON, code, or anything technical:
+
+<small>Example: Shell command</small>
+
+<pre>
+```bash
+npm install sans-serif-sentiments
+```
+</pre>
+
+<small>Example: JSON response</small>
+
+<pre>
+```json
+{
+  "status": "ok",
+  "version": "2.1.0"
+}
+```
+</pre>
+
+> ✅ Bonus tip: Label the language (`bash`, `json`, `html`) to enable syntax highlighting on GitHub.
+
+---
+
+### 📌 TL;DR
+
+- Format is clarity
+- Layout is empathy
+- A doc that reads well is a doc that gets read
+
+Up next: [Style in Action →](./STYLE-GUIDE.md)
