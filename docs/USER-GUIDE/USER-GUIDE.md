@@ -27,7 +27,7 @@ Whether you're creating a user manual, an API reference, or a how-to blog, this 
 | [Writing Principles](#4-writing-principles) | How to write like a human, not a helpdesk |
 | [Doc Types & Examples](#5-doc-types--examples) | Different doc styles and when to use them |
 | [Visual Writing](6-#visual-writing) | Tables, UI cutouts, code blocks & delight |
-| [Style in Action](7-#./STYLE-GUIDE.md) | How to apply our style guide |
+| [Style in Action](#7-style-in-action) | How to apply our style guide |
 | [Remapped Examples](./examples/remapped-markdown.md) | Rewriting traditional docs in our voice |
 | [FAQs](#faq--troubleshooting) | Because something will go wrong |
 | [Next Steps](#next-steps) | Where to go from here |
@@ -564,7 +564,7 @@ npm install sans-serif-sentiments
 - Layout is empathy
 - A doc that reads well is a doc that gets read
 
-Up next: [Style in Action →](./STYLE-GUIDE.md)
+Up next: [Style in Action →](#7-style-in-action)
 
 ---
 
@@ -669,5 +669,8 @@ When in doubt, ask:
 - Rewrite like you’re rescuing someone from confusion
 - Your tone is your tool—it builds trust
 - Style isn’t just how it sounds—it’s how it feels to read
+
+> ✍ Need the full breakdown of our voice, tone, and writing rules?  
+> [Read the Style Guide](../STYLE-GUIDE/index.md)
 
 Up next: [Remapped Examples →](./examples/remapped-markdown.md)
