@@ -671,6 +671,6 @@ When in doubt, ask:
 - Style isn’t just how it sounds—it’s how it feels to read
 
 > ✍ Need the full breakdown of our voice, tone, and writing rules?  
-> [Read the Style Guide](../STYLE-GUIDE/index.md)
+> [Read the Style Guide](../STYLE-GUIDE/STYLE-GUIDE.md)
 
 Up next: [Remapped Examples →](./examples/remapped-markdown.md)
