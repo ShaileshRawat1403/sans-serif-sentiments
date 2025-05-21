@@ -1050,3 +1050,1106 @@ Avoid:
 
 ---
 
+## 15. Tables, Lists & Layouts  
+_When to use which—and why your formatting matters._
+
+Users don’t read docs like a novel.  
+They skim, scan, skip, and scroll.  
+Your structure should *support that behavior—not fight it*.
+
+---
+
+### 📋 When to Use a List
+
+Use **bulleted lists** when:
+- There’s no specific order
+- You’re naming tools, options, concepts, requirements
+
+```markdown
+- Install Node.js
+- Clone the repo
+- Open the project in VS Code
+```
+
+Use **numbered lists** when:
+- Steps must be followed in a specific sequence
+
+```markdown
+1. Download the installer  
+2. Run the setup wizard  
+3. Verify your installation
+```
+
+✅ Keep list items short and parallel in tone.  
+✅ Add a one-line intro if needed:  
+> To install the tool, follow these steps:
+
+---
+
+### ❌ Common Mistakes in Bullet Lists
+
+#### 🚫 Mixed formats
+```markdown
+- Clone the repo
+- Then install dependencies
+Run the dev server after that
+- Open the browser
+```
+
+✅ Fix:
+```markdown
+- Clone the repo  
+- Install dependencies  
+- Run the dev server  
+- Open the browser
+```
+
+---
+
+#### 🚫 Rambly, paragraph-length bullets
+```markdown
+- First, you’re going to want to make sure your environment is set up correctly, which means checking Node version, Python path, and also ensuring that you have Git installed and configured properly.
+```
+
+✅ Fix:
+```markdown
+- Check your environment:
+  - Node.js installed  
+  - Python path set  
+  - Git configured
+```
+
+---
+
+#### 🚫 Inconsistent grammar or tone
+```markdown
+- Creates the token  
+- Deleting the cache  
+- Used for session management
+```
+
+✅ Fix (same tense):
+```markdown
+- Create the token  
+- Delete the cache  
+- Manage session data
+```
+
+> 📌 Tip: Read your list out loud.  
+> If it sounds like a ramble or grammar rollercoaster, it probably is.
+
+---
+
+### 📐 When to Use a Table
+
+Use a **table** when:
+- You’re comparing values side-by-side
+- Listing options, flags, configs, or multiple attributes
+
+```markdown
+| Flag        | Description                        | Default |
+|-------------|------------------------------------|---------|
+| `--verbose` | Enables debug output               | `false` |
+| `--config`  | Path to custom config file         | `null`  |
+| `--watch`   | Rebuild on file change             | `true`  |
+```
+
+✅ Keep tables narrow, clean, and skimmable  
+✅ Use columns only when each one adds meaning  
+❌ Avoid tables just to “make things look neat”
+
+---
+
+### ❌ Overdone Table
+
+```markdown
+| Step | Instruction                                                                 |
+|------|-----------------------------------------------------------------------------|
+| 1    | To begin the setup, go to the website, locate the installer, download it… |
+```
+
+✅ Use a list instead:
+```markdown
+### To set up:
+
+1. Go to the [download page](#)  
+2. Download the installer  
+3. Run the installer and follow prompts
+```
+
+---
+
+### 🧱 Visual Layout Patterns (Micro-Layouts)
+
+Think in **building blocks**:
+
+```markdown
+## Heading  
+> Intro sentence (optional)  
+- List or short paragraph  
+- Optional tip or callout  
+```
+
+Don’t:
+- Nest 3+ levels deep
+- Stack multiple tables back-to-back
+- Mix long paragraphs into tables
+
+---
+
+### 📌 TL;DR
+
+- Lists are for flow. Tables are for side-by-side comparison.
+- Don’t turn your prose into spreadsheets.
+- Use consistent tense and style across list items.
+- Respect your reader’s eyes—format like it matters.
+
+> If your doc looks like a receipt or a ransom note, reformat it.
+
+---
+
+## 16. Terminology & Glossary  
+_Define and link key terms so your readers—and your writers—stay aligned._
+
+Language isn't just what we write—it's the system that supports your product, your UX, and your docs.
+
+This glossary is your **source of truth** for:
+
+- What words mean  
+- How they’re spelled and capitalized  
+- When (and when not) to use them
+
+---
+
+### 📘 Why It Matters
+
+| Without a glossary | With a glossary |
+|--------------------|-----------------|
+| “Cache,” “buffer,” and “store” used interchangeably | Writers use the right term, every time |
+| Users confused if “project,” “workspace,” and “account” are the same | Terms are defined, linked, and consistent |
+| Writers invent new phrases for the same concept | Everyone speaks the same doc language |
+
+---
+
+### 🔤 Example Glossary Table
+
+| Term | Definition | Use it when… | Don’t confuse with |
+|------|------------|--------------|--------------------|
+| **Token** | A temporary access credential, usually time-limited | Explaining API authentication | Key, credential |
+| **Key** | A long-term identifier, typically stored securely | Describing config or setup | Token |
+| **Workspace** | A shared environment for users and projects | Referring to org-wide settings | Account, project |
+| **Project** | A single unit of work inside a workspace | Naming or scoping builds | Repo, workspace |
+| **Slug** | A URL-friendly version of a name (`my-post-title`) | Generating permalinks or doc URLs | ID, alias |
+
+---
+
+### 🧠 Tips for Maintaining the Glossary
+
+- ✅ Add a new term when:
+  - You’ve used it 3+ times across docs  
+  - You’ve had to explain it in comments or PRs  
+  - It could be misinterpreted in another language
+
+- ✅ Link to the glossary:  
+  ```markdown
+  See our [Glossary →](#16-terminology--glossary) for key definitions.
+  ```
+
+- ✅ Define once. Then use consistently.
+
+- 🚫 Don’t:
+  - Redefine terms in every doc  
+  - Assume technical users already know
+
+---
+
+### 📌 Formatting Rules
+
+| Rule | What to Follow |
+|------|----------------|
+| Headings | Use `## Glossary` in standalone pages |
+| Order | Alphabetical |
+| Spelling | Use American English (or define your variant) |
+| Capitalization | Only capitalize proper nouns (e.g. GitHub, Node.js) |
+| Plurals | Use singular form as the glossary entry (e.g. `token`, not `tokens`) |
+
+---
+
+### 🧨 Common Anti-Patterns
+
+| Problem | Fix |
+|--------|-----|
+| Multiple terms for the same thing | Choose one canonical term—mark others as synonyms |
+| Inconsistent capitalization (`Api` vs `API`) | Define casing rules once, follow everywhere |
+| Jargon overload | Add plain English versions or usage examples |
+
+---
+
+### 📌 TL;DR
+
+- Your glossary is a contract between writer and reader
+- Define once, use everywhere
+- Link generously—don’t force the reader to guess
+- Kill synonym drift before it kills your clarity
+
+> Docs don’t get bloated because of too much info.  
+> They get bloated because of repeated definitions.
+
+## 17. Doc Versioning & Changelogs  
+_Semantic versions, last updated tags, and reader trust._
+
+Your readers won’t always remember what they read last time—but your docs should.
+
+Versioning and changelogs help users know:
+- If the doc they’re reading is up to date  
+- What’s changed since the last time they followed the steps  
+- Whether the current instructions match their software version
+
+---
+
+### 🧮 Versioning Rules (Docs ≠ Product)
+
+Use [Semantic Versioning](https://semver.org/) (`MAJOR.MINOR.PATCH`) for **published docs**, especially when they map to product releases.
+
+| Update Type | Version Bump | Example |
+|-------------|--------------|---------|
+| Major rewrite or format change | `2.0.0` → `3.0.0` | Switched from Markdown to Docusaurus |
+| Added new section or feature doc | `2.0.0` → `2.1.0` | Added OAuth integration docs |
+| Typo fix, grammar, formatting | `2.1.0` → `2.1.1` | Minor edits or phrasing updates |
+
+For standalone guides, you can also version **per file** in the frontmatter:
+
+```markdown
+_Last updated: May 21, 2025 • Version: 1.2.3_
+```
+
+✅ Pro tip: Don’t confuse product version with doc version—track both if needed.
+
+---
+
+### 🗂️ Creating a Great CHANGELOG.md
+
+Keep a root-level changelog that summarizes updates in **plain English** and separates additions, fixes, and changes:
+
+✅ Good changelog format:
+```markdown
+## [2.1.0] – 2025-05-21
+### Added
+- Slack bot quickstart template
+- Callout formatting section under “Tone & Voice”
+
+### Fixed
+- Broken anchor link in API setup
+- Grammar issues in intro paragraphs
+
+## [2.0.0] – 2025-04-01
+### Changed
+- Reorganized entire Style Guide for clarity
+- Moved examples into `/examples/` folder
+```
+
+---
+
+### ❌ Don’t Do This
+
+#### 1. ❌ Vague Commit Messages
+```bash
+git commit -m "update docs"
+```
+
+✅ Instead:
+```bash
+git commit -m "docs: clarify setup steps in quickstart guide"
+```
+
+---
+
+#### 2. ❌ Messy Changelog
+```markdown
+- Fixed some stuff  
+- Added docs  
+- Changed things around
+```
+
+✅ Instead:
+```markdown
+### Fixed
+- Removed duplicate command in CLI section
+
+### Added
+- New “Writing Principles” subsection with examples
+```
+
+---
+
+#### 3. ❌ No “Last Updated” Info
+```markdown
+## Setup Guide
+
+Step 1: Install the CLI...
+```
+
+✅ Instead:
+```markdown
+## Setup Guide  
+_Last updated: May 21, 2025_
+```
+
+---
+
+### ✅ Where to Show Versioning
+
+| Place | What to Show |
+|-------|---------------|
+| Top of a guide | `_Last updated: May 21, 2025_` |
+| Footer or sidebar | Doc version (linked to changelog) |
+| In repo | `/CHANGELOG.md` + version tags in Git history |
+
+> Don’t just keep docs updated—show that they’re updated.
+
+---
+
+### 📌 TL;DR
+
+- Use semantic versioning when your docs follow product changes  
+- Maintain a clean, readable `/CHANGELOG.md`  
+- Always show “last updated” info in public-facing docs  
+- Track both technical and editorial updates  
+- Version commits clearly so humans—not just tools—can follow
+
+> Code tells the computer what changed.  
+> Changelogs tell the humans.
+
+## 18. Review & Feedback Process  
+_How to propose, review, and merge changes without losing your mind—or your voice._
+
+Great docs don’t just happen.  
+They’re reviewed, challenged, edited, and improved—collaboratively.
+
+This section defines how we do that:
+- How to submit doc changes
+- How we review with care, not ego
+- How we merge with clarity and control
+
+---
+
+### ✍️ Submitting a Doc Change (Pull Request Etiquette)
+
+✅ Before opening a pull request:
+- Read the [Style Guide](../STYLE-GUIDE/STYLE-GUIDE.md)
+- Check for existing terms in the [Glossary](#16-terminology--glossary)
+- Use meaningful commit messages
+- Add a brief PR description explaining:
+  - What changed  
+  - Why it changed  
+  - If any related sections were affected
+
+#### ❌ Vague PR Description
+> “Fixed some typos and stuff.”
+
+#### ✅ Better
+> “Clarified token vs. key usage in authentication section. Added alt text to 2 missing diagrams.”
+
+---
+
+### 👀 How We Review
+
+✅ We use this 4-check system:
+
+| Review Check | Ask Yourself… |
+|--------------|----------------|
+| ✅ Content | Does this doc *work* for the reader? |
+| ✅ Clarity | Is it clear, readable, and free of jargon? |
+| ✅ Style | Does it match our tone, structure, and voice? |
+| ✅ Structure | Are headings, examples, and callouts used properly? |
+
+> Bonus check: Will the *next contributor* understand what’s happening here?
+
+---
+
+### 💬 How to Give Better Feedback
+
+| ❌ Don't Say | ✅ Say Instead |
+|-------------|----------------|
+| “This makes no sense.” | “Can you clarify what happens after Step 3?” |
+| “This isn’t how we usually write it.” | “Let’s align this with the 'Writing Principles' section.” |
+| “Why are you even adding this?” | “Is there a specific use case you had in mind for this?” |
+
+> Kindness isn’t optional—it’s part of clarity.
+
+---
+
+### ✅ Merging Guidelines
+
+- Every major update needs 1+ reviewer approval  
+- Editorial changes (grammar, spacing, internal links) can be merged solo  
+- Contributors **must** tag the latest doc version and update the changelog if the structure changes  
+- All merges must follow conventional commit format
+
+---
+
+### 🧠 Pro Tips
+
+- If a change “feels off,” suggest—not block  
+- If a section is unclear, ask *what it’s trying to do*, not just how it’s written  
+- Don’t just review the code—*review the experience*
+
+---
+
+### 📌 TL;DR
+
+- Reviews are guardrails, not gates  
+- Propose clearly, review kindly, and merge consistently  
+- Ask: “Will this make someone’s job easier?”—that’s the metric
+
+> Good feedback doesn't just fix the doc. It teaches the writer.
+
+---
+
+## 19. Automation & Tooling  
+_Linting, CI checks, and the bots that make us better—not bitter._
+
+Good automation doesn’t just enforce rules—it makes good writing easier.
+
+We use light-touch automation to:
+- Keep formatting and structure clean  
+- Prevent broken links and missing alt text  
+- Avoid noisy or unstructured commits  
+- Reduce reviewer burden on repetitive issues
+
+---
+
+### ⚙️ Recommended Tools
+
+| Tool | What It Does | When We Use It |
+|------|---------------|----------------|
+| `markdownlint` | Checks for heading structure, spacing, and common MD errors | On every commit |
+| `prettier` | Formats Markdown and code blocks consistently | Optional but recommended |
+| `alex` | Warns about insensitive or biased language | Before publishing |
+| `textlint` | Catch long sentences, passive voice, and filler words | During reviews |
+| `husky` | Runs checks before commit/push | Used with pre-commit hooks |
+
+---
+
+### 🧠 Example: Pre-Commit Hook with `markdownlint`
+
+`.husky/pre-commit`
+```bash
+#!/bin/sh
+npx markdownlint "**/*.md"
+```
+
+✅ This ensures you won’t accidentally commit a doc with broken headings or list formatting.
+
+---
+
+### ✅ GitHub Actions for Docs
+
+You can also add automation to your GitHub repo with minimal overhead.
+
+`.github/workflows/lint-docs.yml`
+```yaml
+name: Lint Markdown
+
+on: [pull_request]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v13
+```
+
+✅ This checks every PR for Markdown issues automatically.
+
+---
+
+### 🤖 Don’t Over-Automate
+
+#### ❌ Anti-patterns
+- Blocking PRs because a line is 81 characters  
+- Forcing tools that contributors can’t easily install  
+- Adding six linters that contradict each other
+
+#### ✅ Better Approach
+- Catch *preventable friction* (like broken anchors or missing alt text)  
+- Format only what matters (spacing, heading structure)  
+- Use automation to assist—not intimidate
+
+---
+
+### 💬 What to Automate vs Review Manually
+
+| Automate | Review Manually |
+|----------|------------------|
+| Markdown syntax, broken links, alt text | Voice, tone, examples |
+| Commit style (`feat:`, `fix:`) | Doc structure and logic |
+| Typos, spacing | Is this helpful to the reader? |
+
+---
+
+### 📌 TL;DR
+
+- Use `markdownlint`, `alex`, and pre-commit hooks for clarity and inclusivity  
+- Automate the boring stuff so humans can focus on meaning  
+- Don’t let bots kill creativity—use them to surface quality
+
+> Automation should clean your docs—not erase their soul.
+
+---
+
+## 20. SEO & Discoverability  
+_Slugs, meta-tags, internal linking—and how to be found without selling your soul._
+
+Your documentation is only useful if people can find it.  
+Search Engine Optimization (SEO) isn’t about gaming Google—it’s about writing clearly, titling wisely, and linking meaningfully.
+
+> Good SEO = Helping people find the right answer, right when they need it.
+
+---
+
+### 🔍 What Impacts Discoverability in Docs
+
+| Element | Why It Matters |
+|--------|-----------------|
+| **Headings** | Clear, descriptive H1s and H2s improve skimming and indexing |
+| **Slugs (URLs)** | Clean, hyphenated, keyword-rich slugs are easier to remember and share |
+| **Meta Descriptions** | Appear in search snippets—summarize the doc’s usefulness in 1–2 lines |
+| **Link structure** | Internal links build hierarchy and guide user flow |
+| **Anchor names** | Human-readable anchors improve link trust and click-throughs |
+
+---
+
+### ✅ Writing SEO-Friendly Titles
+
+**Bad:**
+```markdown
+# Features
+```
+
+**Better:**
+```markdown
+# Key Features of the Slack Integration
+```
+
+✅ Be specific. Use terms your audience is likely to search for.
+
+---
+
+### 🧭 Writing Meta Descriptions (If Your Platform Supports It)
+
+In frontmatter or metadata blocks:
+```yaml
+title: "Slack Integration Setup Guide"
+description: "Learn how to configure Slack integration with webhooks, auth, and error handling."
+```
+
+> ✅ Think like a user: “If I saw this in search, would I click it?”
+
+---
+
+### 📎 Link Placement Best Practices
+
+- Link **related docs inline** where context is relevant  
+  ✅ _“To configure the webhook, [see our error-handling guide](./webhook-errors.md).”_
+
+- Avoid generic anchors like `click here`  
+  ✅ _“[See OAuth setup instructions →](./oauth-setup.md)”_
+
+- Use **relative paths** for internal links (`./`, not full domain)  
+
+---
+
+### ❌ Common SEO Pitfalls
+
+| Mistake | Better Practice |
+|--------|------------------|
+| Vague titles (“Getting Started”) | “Getting Started with XYZ CLI (Beginner Guide)” |
+| Repeating exact same keywords | Use natural variations (synonyms, question phrasing) |
+| Using raw URLs | Use `[descriptive text](url)` instead |
+| Keyword stuffing | Prioritize clarity—readers > robots |
+
+---
+
+### 🛠 Tools for Smarter Docs SEO
+
+| Tool | Use Case |
+|------|----------|
+| [Yoast](https://yoast.com/) | Write SEO-optimized meta descriptions |
+| [Google Search Console](https://search.google.com/search-console) | See what queries lead to your docs |
+| [Ahrefs Free Tools](https://ahrefs.com/webmaster-tools) | Check backlinks and crawl health |
+| [markdown-link-check](https://github.com/tcort/markdown-link-check) | Detect broken links in `.md` files |
+
+---
+
+### 📌 TL;DR
+
+- Title with clarity, not cleverness  
+- Write 1–2 sentence summaries (meta descriptions)  
+- Use anchor links with purpose—not just out of habit  
+- Avoid stuffing keywords; favor discoverability through usefulness  
+- Think “search phrases,” not buzzwords
+
+> Search engines don’t rank what’s beautiful.  
+> They rank what’s useful—and readable.
+
+---
+
+## 21. Living Documentation  
+_Review schedules, ownership, and docs that age gracefully._
+
+Docs are not code—but they *do decay*.
+
+This section helps you keep your documentation relevant, helpful, and trusted—without burning out your team.
+
+A “living” document means:
+- It reflects the current state of the product  
+- It has an owner, not just a creator  
+- It signals when it’s outdated or ready for removal
+
+---
+
+### 🧠 Signs Your Doc Is Dying
+
+| Symptom | What It Means |
+|---------|----------------|
+| Reader feedback is unclear or contradictory | The doc is outdated or confusing |
+| Internal links are broken | Sections have moved or been renamed |
+| Screenshots show an old UI | The product evolved but the doc didn’t |
+| It only made sense during a sprint | The doc has lost long-term context |
+
+---
+
+### ✅ Review Cadence Suggestions
+
+| Doc Type | Review Every… |
+|----------|----------------|
+| Core product docs | 3–6 months |
+| Integrations / APIs | Quarterly or per release |
+| Internal onboarding docs | Twice a year |
+| Style Guide | Living edits, with quarterly reviews |
+
+> If it impacts users, review it like a product.
+
+---
+
+### 🧑‍💼 Assigning Ownership
+
+Every major doc should have:
+- A **primary maintainer** (can be shared across teams)
+- A clear history of contributors (visible via commits or metadata)
+- A changelog or “last updated” tag to guide readers and editors
+
+```markdown
+_Last reviewed: April 2025 by @devdocqueen_
+```
+
+---
+
+### 🪦 How to Retire a Doc (Gracefully)
+
+Don’t just delete it. Deprecate with dignity.
+
+✅ Steps:
+1. Add a banner to the top of the doc:
+   ```markdown
+   > ⚠️ **Deprecated:** This guide is outdated as of April 2024.  
+   > For the latest setup, [see the updated OAuth guide](./oauth-v2.md).
+   ```
+
+2. Move to `/archive/` or clearly label with `[DEPRECATED]` in the filename  
+3. Remove it from nav menus and TOC if it's not actively needed
+
+---
+
+### 🧭 Proactive Doc Maintenance Checklist
+
+| Task | Frequency |
+|------|-----------|
+| Check for broken links or 404s | Monthly |
+| Refresh screenshots and code examples | Quarterly |
+| Validate internal links still resolve | Monthly |
+| Ask users what’s unclear or missing | Continuously |
+
+---
+
+### ❌ What Not to Do
+
+| Mistake | Better Approach |
+|--------|------------------|
+| Assume published = finished | Review regularly; treat like product assets |
+| Delete docs without redirect | Deprecate visibly or archive with links |
+| Ignore reader feedback | Add clarifications or open a PR—even for small notes |
+
+---
+
+### 📌 TL;DR
+
+- Assign doc owners and review cycles—don’t let docs drift  
+- Mark outdated guides with version labels or warnings  
+- Archive responsibly, and always point readers to what’s next  
+- Keep changelogs and last-reviewed metadata visible
+
+> Living docs aren’t constantly changing.  
+> They’re just never ignored.
+
+---
+
+## 22. AI-Assisted Writing  
+_Guidance on responsible, ethical, and effective use of AI in docs._
+
+AI can draft, polish, rephrase, reformat—and hallucinate.
+
+This section helps you use AI as a writing assistant—not a ghostwriter—and ensures your documentation stays:
+- Clear  
+- Credible  
+- Human-first
+
+---
+
+### 🤖 What AI Can Help With
+
+| Task | AI Is Useful For… |
+|------|-------------------|
+| Rephrasing text | Making long paragraphs clearer or shorter |
+| Formatting Markdown | Cleaning up tables, lists, headings |
+| Generating boilerplate | Drafting TOCs, changelogs, or style guide stubs |
+| Translating tone | Converting corporate speak to plain English |
+| Brainstorming examples | Coming up with analogies, metaphors, or edge cases |
+
+---
+
+### ❌ What AI Should NOT Do
+
+| Task | Why It’s Risky |
+|------|----------------|
+| Write final technical instructions | May hallucinate commands or concepts |
+| Generate real code snippets | Can suggest insecure, untested, or broken code |
+| Mimic company voice | Often sounds generic or fake “helpful” |
+| Fabricate citations or links | Breaks trust immediately |
+| Replace writer ownership | Undermines author intent, empathy, and context
+
+---
+
+### 🧠 Ethical Considerations
+
+| Principle | What It Means |
+|----------|----------------|
+| **Transparency** | If AI drafted part of a doc, reviewers should know |
+| **Human accountability** | Every doc must have a human editor and owner |
+| **No silent generation** | Don’t paste AI-generated content without reviewing every word |
+| **No plagiarism** | Never lift examples or phrasing from other sources via AI without credit |
+| **No fake examples** | Real screenshots, real workflows, or clearly marked demos only |
+
+> ✍️ Writers write.  
+> AI assists—but humans are responsible.
+
+---
+
+### ✅ Ethical AI Workflow
+
+1. **Prompt clearly**  
+   _“Rewrite this section for a beginner. Avoid jargon, but don’t lose technical meaning.”_
+
+2. **Edit ruthlessly**  
+   _If it’s bland, bloated, or incorrect—cut it._
+
+3. **Verify everything**  
+   _Check commands, URLs, syntax, formatting, tone._
+
+4. **Mark what’s incomplete**  
+   _Add `[INSERT real screenshot of new UI here]` or `[Placeholder: list common error codes]`._
+
+---
+
+### 🔍 Prompt Design: Good vs Bad
+
+Writing for AI is a skill. Here’s how to level up:
+
+#### ❌ Bad Prompt:
+> “Write API documentation for my product.”
+
+❌ What you get:
+- Hallucinated endpoints  
+- Placeholder tokens  
+- Random headers and features you don’t support  
+- Generic tone with no context
+
+---
+
+#### ✅ Better Prompt:
+> “Write a short Getting Started section for a REST API with three endpoints: `/login`, `/logout`, and `/profile`. Focus on tone clarity over cleverness. Audience is mid-level devs familiar with Postman.”
+
+✅ What you get:
+- Role-aware, usable draft  
+- Structure and examples tailored to real devs  
+- Something you can edit, not trash
+
+---
+
+#### ❌ Bad Prompt:
+> “Explain JSON to a non-techie.”
+
+❌ What you get:
+> “JSON stands for JavaScript Object Notation and is a lightweight data-interchange format. It is easy to read and write…”
+
+✅ Zzzzz...
+
+---
+
+#### ✅ Better Prompt:
+> “Explain JSON to a non-technical HR manager who understands spreadsheets. Use a friendly tone. Compare it to a table of columns and rows.”
+
+✅ What you get:
+> “Imagine a spreadsheet where each row is an employee, and each column—like name, title, and ID—is a data label. JSON is just that, but for machines to read and pass around.”
+
+Now that’s **readable and reusable**.
+
+---
+
+### ⚠️ Common Pitfalls with AI-Written Docs
+
+| Mistake | Real Impact |
+|--------|-------------|
+| Copying without editing | Leads to errors, bloated text, robotic tone |
+| Using fake file paths | Users get confused or break things |
+| Not attributing AI output | Breaks trust and ownership |
+| Skipping fact-checking | Introduces silent bugs or false features |
+
+---
+
+### ✅ Good AI Use vs Bad AI Use
+
+#### ✅ Good:
+```markdown
+> AI-generated: Drafted alt text for all diagrams.  
+> Human-edited: Shortened, clarified, and removed 2 inaccurate suggestions.  
+> Final: Added context-specific screenshots and corrected link targets.
+```
+
+#### ❌ Bad:
+```markdown
+> AI-generated: Wrote entire user guide.  
+> Human: Copied and pasted into main without review.  
+> Result: Broken commands, fake endpoints, inconsistent tone.
+```
+
+---
+
+### 📌 TL;DR
+
+- Use AI to support—not replace—your writing  
+- Disclose, review, and rewrite as needed  
+- Write better prompts, and treat AI like an intern—not a savior  
+- If it sounds fake, bloated, or risky—it probably is
+
+> AI can accelerate writing.  
+> But only humans can write with **intent, empathy, and truth**.
+
+---
+
+## 23. Multi-Format Output  
+_PDF, slides, video scripts—and writing that works everywhere._
+
+Your documentation may need to live beyond Markdown.
+
+This section helps you write with adaptability in mind—so your content can move between:
+- Slideshows  
+- Tutorials or videos  
+- Voice-over scripts  
+- Interactive tools  
+- PDFs or printed booklets
+
+> Great documentation isn’t tied to its format.  
+> It’s built on clarity, rhythm, and hierarchy.
+
+---
+
+### 🧭 Format-Agnostic Writing Principles
+
+| Rule | Why It Matters |
+|------|----------------|
+| Use clear headings | Can be reused as slide titles or section markers |
+| Short paragraphs | Easier to voice-over or present visually |
+| Avoid inline-only instructions | Screen readers or slides won’t show hover states |
+| Separate content from visuals | Easier to reuse content across formats |
+| Use consistent callouts and examples | Helps in script narration or alt-text captions |
+
+---
+
+### 🎬 Adapting a Doc to Other Formats
+
+#### ✅ Slide Deck (Presentation)
+| Doc Element | Slide Equivalent |
+|-------------|------------------|
+| `## Heading` | Slide title |
+| Bullet list | Slide bullets |
+| Code block | Screenshot or side-by-side |
+| Callout box | Presenter note or visual emphasis |
+
+#### ✅ Video Tutorial or Script
+| Doc Element | Spoken Equivalent |
+|-------------|-------------------|
+| Step-by-step list | Walkthrough narration |
+| Notes or tips | On-screen annotations |
+| Visual references | Camera zooms / highlights |
+| Examples | Demo clips or animations |
+
+---
+
+### 🧱 Multi-Format Layout Template
+
+```markdown
+## Section Title  
+_1-sentence intro for context_
+
+### Step-by-step / Concept  
+- Step 1: Do the thing  
+- Step 2: Verify it worked  
+- Step 3: Roll back if needed
+
+> 💡 Tip: Use `--dry-run` before applying live changes.
+
+📎 Related: [Rollback docs →](./rollback.md)
+
+🎙 Voiceover version:  
+“Let’s start by cloning the repo and checking if the setup works locally…”
+```
+
+---
+
+### ❌ Pitfalls to Avoid
+
+| Problem | Fix |
+|--------|-----|
+| Long, dense paragraphs | Break into 2–3 line chunks |
+| Reliance on layout-specific features | Avoid columns, hover text, or interactive-only notes |
+| Visuals with no description | Add alt-text or captions |
+| Repetitive formatting across formats | Keep one clean source and generate outputs as needed |
+
+---
+
+### 🛠 Tools to Export From Markdown
+
+| Tool | Output | Notes |
+|------|--------|-------|
+| [Pandoc](https://pandoc.org) | PDF, DOCX, slides | Great for automation |
+| [Marp](https://marp.app) | Slides | Turn Markdown into PowerPoint-like decks |
+| [Docsify](https://docsify.js.org/) | Web docs | Live preview-friendly |
+| [Lunacy + Figma Plugins](https://www.figma.com/community) | Graphics/slides from doc layouts | For visual-first teams |
+
+---
+
+### 📌 TL;DR
+
+- Write with format flexibility in mind—structure > style  
+- Keep language concise and modular for reuse in slides, videos, scripts, and more  
+- Separate content from layout, always add alt text  
+- Use tools to export—not rewrite
+
+> A well-written doc should be easy to **read**, easy to **present**, and easy to **teach**.
+
+---
+
+## 24. Evolution Rules  
+_How and when this guide updates—because writing standards grow, too._
+
+Style guides aren’t holy texts.  
+They’re living agreements—meant to evolve with your team, your audience, and your tools.
+
+This section defines how we:
+- Propose changes to the guide  
+- Decide what gets added, rejected, or rewritten  
+- Keep the guide relevant without constant churn
+
+---
+
+### 🧭 When Should the Style Guide Change?
+
+✅ Add or revise a section when:
+- There’s **repeated confusion** across docs or contributors  
+- A new format or tool (e.g. AI, localization, video) becomes common  
+- You’ve spotted **outdated guidance or broken rules**  
+- Feedback or onboarding shows friction
+
+✅ Avoid changes just because:
+- It’s “how you personally like to write”  
+- You want to make a sentence sound cooler  
+- You’re trying to match external brands or trends
+
+> This guide evolves for the **collective clarity**—not individual voice.
+
+---
+
+### 🔧 How to Propose a Change
+
+Every style edit—no matter how small—should:
+- Be submitted as a Pull Request  
+- Include a short rationale in the PR description  
+- Reference an example of where the current rule caused confusion or inconsistency
+
+#### ✅ Example PR Description:
+```markdown
+This PR suggests rewording the “Emphasis Rules” section to better distinguish between emphasis for emotion vs. technical commands. 
+
+We noticed contributors overusing `**bold**` where italics were meant to soften tone.
+
+Issue raised in #42 and #51.
+```
+
+---
+
+### 🧠 Who Approves Changes?
+
+| Change Type | Reviewer Required |
+|-------------|--------------------|
+| Minor copy tweaks or typo fixes | 1 contributor or editor |
+| New rule, term, or section | Style guide lead or majority agreement |
+| Structural changes to hierarchy or tone | Needs team discussion & review |
+
+✅ Use GitHub Discussions or issues for large proposals before writing a PR.
+
+---
+
+### 🏷️ Versioning the Style Guide
+
+The style guide has its own semantic version.
+
+```markdown
+🎨 Style Guide — Version 1.2.0  
+_Last updated: May 21, 2025_
+```
+
+| Version Type | What Changed |
+|--------------|---------------|
+| `x.0.0` | Major rewrite or tone change |
+| `0.x.0` | Added sections, rules, or glossary terms |
+| `0.0.x` | Fixes, rewording, formatting cleanup |
+
+---
+
+### 🔐 What Doesn’t Change Easily
+
+Some sections require higher scrutiny before edits:
+- Tone & Voice  
+- Glossary Definitions  
+- Accessibility Rules  
+- Ethical/AI Usage Standards
+
+> These are foundational.  
+> Updates should reflect real-world pain—not personal taste.
+
+---
+
+### 📌 TL;DR
+
+- Style guides are agreements, not absolutes  
+- Propose changes with examples, not opinions  
+- Version the guide, track the changes, and explain the *why*  
+- Change what serves the reader—not what flatters the writer
+
+> This guide evolves—but only for the right reasons.
+
+---
