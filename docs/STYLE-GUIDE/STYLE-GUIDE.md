@@ -37,8 +37,97 @@ _A living framework for calm, clear, human-first documentation._
 
 ---
 
-## Purpose of This Guide
-_Why this exists and how to use it._
+---
+
+## 1. Purpose of This Guide
+
+> A style guide is not just about formatting—it's about trust.  
+> This document exists to create a **shared voice**, a **clear standard**, and a **reliable starting point** for anyone contributing to sans-serif-sentiments.
+
+You can use this guide when:
+- You're writing docs, READMEs, guides, or changelogs
+- You're reviewing someone else’s writing
+- You’re rewriting dry tech speak into something more human
+
+This isn’t about rules. It’s about rhythm.
+
+---
+
+## 2. Tone & Voice  
+_Calm, clear, sincere—never robotic._
+
+| Trait     | What It Means                          |
+|-----------|-----------------------------------------|
+| **Calm**  | No over-explaining, no exclamation marks unless they earn it |
+| **Clear** | Say what you mean. Cut half your words and see if it still works |
+| **Sincere** | Be helpful, not hypey. Avoid jargon, sarcasm, or corporate tone |
+| **Minimal** | Don’t write a sentence when a phrase will do |
+| **Human** | We talk like real people. Readers come first, not grammar rules |
+
+> We write like we respect people’s time—and their brains.
+
+---
+
+## 3. Structure & Hierarchy  
+_When and how to use headings and whitespace._
+
+### 🧱 Use heading levels to guide the eye:
+
+| Markdown | Purpose |
+|----------|---------|
+| `#` H1   | Page title (only once per doc) |
+| `##` H2  | Major sections |
+| `###` H3 | Subsections within an H2 |
+| `####` H4 | Rarely used—only if absolutely needed |
+
+✅ Always keep 1 blank line **before** and **after** headings.
+
+---
+
+### 🧼 Use whitespace like punctuation
+
+- One thought = one paragraph  
+- Use bullets or tables instead of dense text  
+- Group related content with clear spacing
+
+> If it looks dense, it reads dense.
+
+---
+
+## 4. Emphasis Rules  
+_Use emphasis to guide—not distract._
+
+| Use case | Style |
+|----------|-------|
+| Highlighting a key term | `**bold**` |
+| Light emphasis or nuance | `*italic*` |
+| Referencing file/code names | `` `inline code` `` |
+| Big blocks of code or output | Triple backticks (```lang) |
+| Overuse of bold | ❌ Avoid—it loses impact |
+
+✅ Never emphasize a full sentence. Emphasis should support meaning, not add noise.
+
+---
+
+## 5. Language & Word Choice  
+_Preferred words, banned jargon._
+
+### ✅ Use simple, common words:
+| Bad | Better |
+|-----|--------|
+| Utilize | Use |
+| Leverage (as a verb) | Apply, use |
+| Facilitate | Help |
+| Navigate to | Go to |
+| Interface (as noun) | Screen, page, dashboard |
+| In order to | To |
+
+### ❌ Avoid these patterns:
+- "It is recommended that…" → say “We recommend…”  
+- “At your earliest convenience…” → say “When you’re ready”  
+- “Endeavor to…” → just… don’t.
+
+> Write like you're helping a smart friend, not submitting to a legal department.
 
 ## Tone & Voice
 _Calm, clear, sincere—never robotic._
