@@ -38,8 +38,6 @@ This guide is split into **two version-specific install manuals** so you can get
 - Minor updates often affect **themes, UI layout, or routing setup**  
 - Versioned docs prevent confusion, broken steps, and backtracking
 
-This format is part of a living portfolio of human-first documentation.
-
 ---
 
 > “Download the tool. Don’t download the confusion.”
