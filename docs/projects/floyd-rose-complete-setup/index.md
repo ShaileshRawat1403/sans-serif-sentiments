@@ -8,6 +8,8 @@
 <details>
 <summary>Click to expand</summary>
 
+<br>
+
 1. [Introduction: Why the Floyd Rose Bothers You](#1-introduction-why-the-floyd-rose-bothers-you)  
 2. [What Is a Floyd Rose?](#2-what-is-a-floyd-rose)  
 3. [Tools You’ll Need](#3-tools-youll-need)  
