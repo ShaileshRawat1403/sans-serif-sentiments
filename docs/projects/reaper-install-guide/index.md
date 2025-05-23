@@ -21,14 +21,14 @@ So whether you’re on **7.0** or the latest **7.1+**, you’ll find exactly wha
 ### 🧰 Reaper v7.0
 > *The major jump from v6: track lanes, new theme, layout overhaul.*
 
-👉 [Read the v7.0 Installation Guide](./v7.0/index.md)
+👉 [Read the v7.0 Installation Guide](./v7.0/)
 
 ---
 
 ### 🚀 Reaper v7.1 and Beyond
 > *Post-launch improvements, new layouts, and a smoother setup flow.*
 
-👉 [Read the v7.1+ Installation Guide](./v7.1/index.md)
+👉 [Read the v7.1+ Installation Guide](./v7.1/)
 
 ---
 

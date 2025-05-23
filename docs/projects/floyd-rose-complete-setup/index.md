@@ -5,6 +5,8 @@
 ---
 
 ## Table of Contents
+<details>
+<summary>Click to expand</summary>
 
 1. [Introduction: Why the Floyd Rose Bothers You](#1-introduction-why-the-floyd-rose-bothers-you)  
 2. [What Is a Floyd Rose?](#2-what-is-a-floyd-rose)  
@@ -22,6 +24,8 @@
 14. [Troubleshooting Scenarios](#14-troubleshooting)  
 15. [Final Setup Checklist](#15-final-setup-checklist)  
 16. [Resources & Community](#16-resources--community)
+
+</details>
 
 ---
 
