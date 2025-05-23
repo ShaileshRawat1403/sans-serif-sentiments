@@ -8,8 +8,8 @@
 
 !!! note "Click to expand"
 
-    1. [Introduction: Why the Floyd Rose Bothers You](#1-introduction-why-the-floyd-rose-bothers-you)  
-    2. [What Is a Floyd Rose?](#2-what-is-a-floyd-rose)  
+    1. [Introduction: Why the Floyd Rose Bothers You](1-introduction-why-the-floyd-rose-bothers-you)  
+    2. [What Is a Floyd Rose?](2-what-is-a-floyd-rose)  
     3. [Tools You’ll Need](#3-tools-youll-need)  
     4. [Understanding the Anatomy of a Floyd Rose](#4-understanding-the-anatomy-of-a-floyd-rose)  
     5. [Changing Strings (Without Losing Your Sanity)](#5-changing-strings)  
