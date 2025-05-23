@@ -6,24 +6,22 @@
 
 ## Table of Contents
 
-!!! note "Click to expand"
-
-    1. [Introduction: Why the Floyd Rose Bothers You](1-introduction-why-the-floyd-rose-bothers-you)  
-    2. [What Is a Floyd Rose?](2-what-is-a-floyd-rose)  
-    3. [Tools You’ll Need](3-tools-youll-need)  
-    4. [Understanding the Anatomy of a Floyd Rose](4-understanding-the-anatomy-of-a-floyd-rose)  
-    5. [Changing Strings (Without Losing Your Sanity)](5-changing-strings)  
-    6. [Tuning a Floyd Rose](6-tuning-a-floyd-rose)  
-    7. [Maintaining the Float](7-maintaining-the-float)  
-    8. [Adjusting Action](8-adjusting-action)  
-    9. [Intonation](9-intonation-setup)  
-    10. [Break-In Period & String Stretching](10-break-in-period--string-stretching)  
-    11. [What If I Want to Drop Tune?](11-what-if-i-want-to-drop-tune)  
-    12. [Common Failures](12-common-failures-and-yes-theyre-common)  
-    13. [Best Practices & Mythbusting](13-best-practices--mythbusting)  
-    14. [Troubleshooting Scenarios](14-troubleshooting)  
-    15. [Final Setup Checklist](15-final-setup-checklist)  
-    16. [Resources & Community](16-resources--community)
+1. [Introduction: Why the Floyd Rose Bothers You](#1-introduction-why-the-floyd-rose-bothers-you)  
+2. [What Is a Floyd Rose?](#2-what-is-a-floyd-rose)  
+3. [Tools You’ll Need](#3-tools-youll-need)  
+4. [Understanding the Anatomy of a Floyd Rose](#4-understanding-the-anatomy-of-a-floyd-rose)  
+5. [Changing Strings (Without Losing Your Sanity)](#5-changing-strings)  
+6. [Tuning a Floyd Rose](#6-tuning-a-floyd-rose)  
+7. [Maintaining the Float](#7-maintaining-the-float)  
+8. [Adjusting Action](#8-adjusting-action)  
+9. [Intonation](#9-intonation-setup)  
+10. [Break-In Period & String Stretching](#10-break-in-period--string-stretching)  
+11. [What If I Want to Drop Tune?](#11-what-if-i-want-to-drop-tune)  
+12. [Common Failures](#12-common-failures-and-yes-theyre-common)  
+13. [Best Practices & Mythbusting](#13-best-practices--mythbusting)  
+14. [Troubleshooting Scenarios](#14-troubleshooting)  
+15. [Final Setup Checklist](#15-final-setup-checklist)  
+16. [Resources & Community](#16-resources--community)
 
 ---
 
