@@ -1,45 +1,42 @@
-# 🎧 Reaper Installation Guide (Versioned)
+# Reaper Installation Guide
 
-*A human-first guide to installing the DAW that does everything—except hold your hand.*
-
----
-
-## 🧭 Why Versioned Docs?
-
-Reaper updates often. And with each major update comes:
-- UI shifts  
-- Theme changes  
-- New features that alter the first-time setup
-
-That’s why we split the installation manual by version.  
-So whether you’re on **7.0** or the latest **7.1+**, you’ll find exactly what you need—**without guesswork.**
+A beginner-friendly, versioned guide to installing REAPER—the DAW that does everything, once you know where to start.
 
 ---
 
-## 📦 Choose Your Version
+## Why Versioned Docs
 
-### 🧰 Reaper v7.0
-> *The major jump from v6: track lanes, new theme, layout overhaul.*
+REAPER updates often. And with each version comes:
+- UI and layout shifts
+- New features
+- Changed defaults
 
-👉 [Read the v7.0 Installation Guide](./v7.0/)
-
----
-
-### 🚀 Reaper v7.1 and Beyond
-> *Post-launch improvements, new layouts, and a smoother setup flow.*
-
-👉 [Read the v7.1+ Installation Guide](./v7.1/)
+To avoid confusion, we've split this guide by version—so you always get the most accurate and relevant steps for your setup.
 
 ---
 
-## 💡 Not Sure What Version You’re Using?
+## Choose Your Version
 
-1. Open Reaper  
-2. Click `Help` → `About REAPER`  
-3. You’ll see the version number (e.g. *v7.11/x64*)
+### REAPER v7.0  
+Major layout overhaul and visual redesign.
+
+[Read the v7.0 Installation Guide](./v7.0/)
 
 ---
 
-> This project is part of a documentation portfolio designed to help people—not just document features.
+### REAPER v7.1 and Beyond  
+Subtle theme tweaks, improved track lanes, better comping.
 
-If you found this helpful or have ideas to improve it, let us know.
+[Read the v7.1+ Installation Guide](./v7.1/)
+
+---
+
+## How to Check Your REAPER Version
+
+1. Open REAPER  
+2. Go to `Help` → `About REAPER`  
+3. Your version number will be listed (e.g., v7.11/x64)
+
+---
+
+This documentation project is part of a portfolio aimed at simplifying tools for everyday users. Your feedback is welcome.
